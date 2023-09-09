@@ -1,0 +1,47 @@
+/*Estilo para o cabeçalho principal*/
+h1 {
+    font-size: 28px;
+    color: #bf2d2d;
+    text-align: center;
+}
+.div1 {
+    text-align: center;
+}
+.body {
+    background-color: rgb(41, 171, 128);
+}
+.botao {
+    background-color: #2906b6; /*Cor de fundo do botão*/
+    color: #fff; /*Cor do texto do botão*/
+    border: none; /*Remove a borda padrão*/
+    padding: 10px 20px; /*Espaçamento interno do botão*/
+    font-size: 14px; /*Tamanho da fonte*/
+    cursor: pointer; /*Cursor do mouse*/
+    border-radius: 8px; /*Borda arredondada*/
+}
+
+/*Estilo para o botão quando hover (quando o mouse passa por cima)*/
+.botao:hover {
+    background-color: #d01803; 
+}
+/*Estilo para os cards*/
+.card {
+    border: 2px solid #171616;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(0, 1, 1, 0.295);
+}
+/*Estilo para a imagem de perfil nos cards*/
+.card img {
+    max-width: 100%;
+    border-radius: 100%;
+}
+/*Estilo para os cabeçalhos dos cards*/
+.card h3 {
+    font-size: 18px;
+    color: #040404;
+    margin: 5px 0px;
+}
